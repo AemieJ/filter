@@ -1,6 +1,7 @@
 # Filter
 
-Python version used : 3.6.7
+Python version used : 3.6.7.
+
 The following python files will be able to execute different filters . In snapchat , instagram , photobooth , etc there are many different filters which are based on facial recognition .
 
 The code is open source and as such , the code will execute a filter on your eyes . I have used opencv , dlib and numpy to create this filter . The video will be recorded and will be saved as Filter-Eyes.avi file .
