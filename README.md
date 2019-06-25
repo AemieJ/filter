@@ -1,6 +1,6 @@
 # Filter
 
-Python version used : 3.6.7.
+Python version : 3.6.7.
 
 The following python files will be able to execute different filters . In snapchat , instagram , photobooth , etc there are many different filters which are based on facial recognition .
 
