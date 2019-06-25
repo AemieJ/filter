@@ -11,7 +11,15 @@ These instructions will get you a copy of the project up and running on your loc
 ``` 
 git clone 'https://github.com/AemieJ/filter-python.git'
 ```
-2. The source code for the filter is written in the filter_eyes.py
+2. Clone the dlib models as shown in the filter-python folder itself . 
+```
+cd filter-python 
+```
+
+```
+git clone 'https://github.com/davisking/dlib-models'
+```
+3. The source code for the filter is written in the filter_eyes.py 
 
 ### Importing
 
@@ -48,3 +56,4 @@ python filter_eyes.py -predictor dlib-models-master/shape_predictor_68_face_land
 
 ## Acknowledgments
 * KP Kaiser
+* davisking
