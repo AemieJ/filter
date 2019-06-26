@@ -58,6 +58,7 @@ eye_list = EyeList(10) #10 coordinates/positions of eyes
 #Making Video 
 img_list = []
 out = cv2.VideoWriter('Filter-Eyes.avi',cv2.VideoWriter_fourcc(*'DIVX'), 15, (400,300))
+
 while True : 
         frame = video.read()
         frame = resize(frame,width = 400)
